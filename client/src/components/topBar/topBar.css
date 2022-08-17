@@ -1,0 +1,64 @@
+.top{
+    width: 100%;
+    background-color:white;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 99;
+
+}
+.topLeft,.topRight{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topIcon{
+    cursor: pointer;
+    color: #444;
+    margin: 10px;
+    font-size: 20px;
+}
+.topCenter{
+    flex :6;
+    
+}
+.topImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.topList{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding: 0%;
+    list-style: none;
+}
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topSearch{
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.brand-label{
+    margin-left: 15px;
+    /* margin-top: 50px; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+}
